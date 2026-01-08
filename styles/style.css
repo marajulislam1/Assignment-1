@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Font */
+
+.font_inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    width: 100vw;
+}
+/* shared style */
+.btn{
+    background-color: #469165;
+    padding: 16.5px 16px;
+}
+/* Main style */
+header{
+    background-color: #FFFFFF;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+ nav .nav_logo img{
+    width: 139px;
+    height: 60px;
+    margin: 16px 0px 16px 120px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 34px;
+}
+nav .btn{
+    padding: 12.5px 16px;
+    margin: 24px 120px 24px 0;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight:600;
+    line-height: 19px;
+}
+nav .btn:hover{
+    background-color: #469165dc;
+}
