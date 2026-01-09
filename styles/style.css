@@ -268,3 +268,41 @@ header #banner_section{
 .early_content .btn{
     margin-bottom: 16px;
 }
+
+/* footer section style */
+#footer_section{
+    width: 100%;
+    padding: 120px 0 30px;
+    background-color: #001931;
+}
+#footer_section .footer_nav{
+    width: 88%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.footer_nav img{
+    max-width: 139px;
+}
+.social_icon{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#footer_section hr{
+    width: 88%;
+    max-width: 1360px;
+    color: #E5E7EB;
+    color: red;
+    margin: 0 auto;
+}
+#footer_section p{
+    text-align: center;
+    padding: 30px 0 20px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
