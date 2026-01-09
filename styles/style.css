@@ -70,7 +70,7 @@ nav .btn{
 /* Banner style */
 header #banner_section{
     width: 100vw;
-    background-image: url(/images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px;
@@ -239,7 +239,7 @@ header #banner_section{
     margin-bottom: 40px;
 }
 .brain_container .brain_content ul{
-    list-style-image: url(/images/CheckCircle.png);
+    list-style-image: url(../images/CheckCircle.png);
     list-style-position: inside;
 }
 .brain_content ul li{
