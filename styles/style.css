@@ -20,6 +20,7 @@ body{
     font-weight: 700;
     color: white;
     border-radius: 4px;
+    border: none;
 }
 .btn:hover{
     background-color: #469165dc;
@@ -248,3 +249,22 @@ header #banner_section{
     line-height: 20px;
 }
 
+/* Early section style */
+.early_content{
+    text-align: center;
+    padding: 80px;
+}
+.early_content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early_content p{
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.early_content .btn{
+    margin-bottom: 16px;
+}
