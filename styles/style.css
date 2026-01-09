@@ -136,3 +136,76 @@ header #banner_section{
     margin-right: 10px;
     background-color: transparent;
 }
+
+/* Notes section style*/
+#note_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#note_section .note_container{
+    width: 88%;
+    max-width: 1360px;
+}
+.note_container .note_heading{
+    padding-top: 60px;
+}
+.note_container .note_heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.note_container .note_heading p{
+    font-size: 16px;
+    color:#627382;
+    text-align: center;
+}
+.note_container .card_container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 44px;
+}
+.note_container .card_container .card{
+    max-width: 322px;
+    padding: 24px;
+    background-color: white;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8 #000000;
+    border: 2px solid red;
+
+}
+.icon_container{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 69.5px;
+    /* margin-inline: auto; */
+}
+.card_container .card img{
+    max-width: 27px;
+    max-height: 29px;
+    margin: 0 auto;
+}
+.card_container .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 24px;
+    color: #001931;
+}
+.card_container .card p{
+    font-size: 16px;
+    color: #627382;
+    margin: 24px 24px 69.5px 0;
+    line-height: 20px;
+}
